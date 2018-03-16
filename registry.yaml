@@ -2,5 +2,5 @@ apiVersion: '0.1'
 kind: ksonnet.io/registry
 libraries:
   tf-job:
-    version: mod
+    version: master
     path: tf-job
