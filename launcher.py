@@ -83,8 +83,3 @@ if __name__ == "__main__":
 
   run_and_stream(command)
   logging.info("Finished: %s", " ".join(command))
-  # We don't want to terminate because TfJob will
-  # just restart the job.
-  while True:
-    logging.info("Command ran successfully sleep for ever.")
-    time.sleep(600)
